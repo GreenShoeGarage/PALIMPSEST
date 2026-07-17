@@ -1,0 +1,69 @@
+PALIMPSEST v3.0.0 — STUDIO RELEASE
+===================================
+
+PALIMPSEST v3.0 unifies the mature reverse engineering workflow into a professional Studio shell while preserving the six-stage investigation model and all v2.9 capabilities.
+
+NEW: PALIMPSEST STUDIO
+----------------------
+- New Studio workspace at the top of navigation
+- Persistent project mission brief
+- Mission, owner, priority, target date, disposition, scope, exclusions, and deliverables
+- Cross-stage actionable work queue
+- Portfolio and active-record metrics
+- Recent project switching from Studio
+- Workspace map for investigation, modeling, comparison, handoff, and review
+- Saved workspace views
+- Focus mode
+
+CONTROLLED RELEASE WORKFLOW
+---------------------------
+- Separate release gates for Evidence, Structure, Dimensions, Reasoning, Verification, Interfaces, Safety, Review, and Reconstruction
+- Pass, Attention, and Not ready conditions remain visible
+- No composite release score
+- Named release labels
+- Release candidate capture
+- Automatic baseline created for each candidate
+- Candidate gate snapshot and release history
+- Mark released with visible exceptions
+- Reopen a released investigation
+- Studio manifest JSON export
+
+COMMAND SYSTEM
+--------------
+- Command palette available from the top bar
+- Ctrl/Command + Shift + P shortcut
+- Workspace navigation commands
+- Common record-creation commands
+- Baseline, report, package, release, focus, and field actions
+
+PORTABLE PACKAGE UPDATES
+------------------------
+The v3.0 portable package adds:
+- studio/studio-manifest.json
+- studio/work-queue.csv
+- release/release-record.json
+
+The package continues to include project JSON, evidence report, CSV data, images, sketches, diagrams, spatial records, baselines, Trace handoff, Handshake package, COGWRIGHT profiles, Makefile package, review materials, and installable app files.
+
+MIGRATION
+---------
+- Projects from PALIMPSEST v1.0 through v2.9 migrate automatically
+- Existing project records are preserved
+- Studio fields are added with safe defaults
+
+VALIDATION COMPLETED
+--------------------
+- JavaScript syntax validation
+- Browser startup and demo workflow
+- Mission brief editing
+- Studio work queue navigation
+- Command palette navigation
+- Saved workspace views
+- Focus mode
+- Release candidate and baseline capture
+- Studio manifest export
+- Project package ZIP integrity
+- Legacy v2.4 project import
+- Trace, Handshake, COGWRIGHT, and Makefile regression
+- Review package, approvals, responses, and signoff regression
+- No runtime console exceptions during tested workflows
